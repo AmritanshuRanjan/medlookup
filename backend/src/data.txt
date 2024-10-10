@@ -1,5 +1,4 @@
 Fever, Influenza, Paracetamol, 500mg
+Fever, Covid, Paracetamol, 500mg
 Cough, Common Cold, Dextromethorphan, 10mg
-a, b, c, d
-g, h, i, j
-a, b, c, d
+cold, cold, pcm, 1

@@ -1,0 +1,69 @@
+.results-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f8f9fa;
+}
+
+.symptom-title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #202124;
+}
+
+.results-container {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.result-box {
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.disease-header {
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+    color: #1a73e8;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.results-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.results-table th, .results-table td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #e0e0e0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.results-table th {
+    background-color: #f1f3f4;
+    font-weight: bold;
+    font-size: 16px;
+    color: #5f6368;
+}
+
+.results-table td {
+    font-size: 16px;
+    color: #202124;
+}
+
+.no-results {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    color: #ea4335;
+}
